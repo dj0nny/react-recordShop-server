@@ -1,0 +1,14 @@
+{
+  "name": "react-recordShop-server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/dj0nny/react-recordShop-server.git",
+  "author": "dj0nny",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2",
+    "mongoose": "^5.4.0"
+  }
+}
