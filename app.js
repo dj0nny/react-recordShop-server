@@ -1,8 +1,14 @@
 const express = require('express');
 const graphqlHTTP = require('express-graphql');
 const schema = require('./schema/schema');
+const mongoose = require('mongoose');
 
 const app = express();
+
+mongoose.connect('...'); // insert here your MongoDB connecton URL
+mongoose.connection.once('open', () => {
+	console.log('connected!');
+});
 
 // express middleware set up with graphQL
 
