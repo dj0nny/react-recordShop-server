@@ -22,9 +22,17 @@ For storing all the data, in this project it will be use __mLab__. For getting a
 
 ### Installing
 
+__Using Git__
+
 Clone the repository: `git clone https://github.com/dj0nny/react-recordShop-server.git`
 
-And install the dependecies using:
+__Download__
+
+You can download the repository [here](https://github.com/dj0nny/react-recordShop-server/archive/develop.zip)
+
+- - - -
+
+Install the dependecies using:
 `npm install` or `yarn install`
 
 For running the server type on a CLI: `node app.js` or `nodemon app.js` if you have [nodemon](https://nodemon.io/) installed on your machine. 
