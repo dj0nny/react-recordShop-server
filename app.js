@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 
 const app = express();
 
-mongoose.connect('...'); // insert here your MongoDB connecton URL
+mongoose.connect('mongodb://dj0nny:mongoReact1@ds243254.mlab.com:43254/react-record-shop'); // insert here your MongoDB connecton URL
 mongoose.connection.once('open', () => {
 	console.log('connected!');
 });
