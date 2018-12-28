@@ -40,8 +40,9 @@ For first, inside the `app.js` file, you have to insert the connection URL for y
 
 `mongoose.connect('...') // the url goes here`
 
-Inside your browser you'll see something like this:
+Once you have navigated to http://localhost:4000/graphql, you'll see something like this:
 
+![picture alt](https://raw.githubusercontent.com/dj0nny/react-recordShop-server/develop/assets/graphql.png)
 
 All the queries will be write on the left and the results will be print on the right.
 
